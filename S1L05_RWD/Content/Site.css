@@ -1,0 +1,31 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: var(--light);
+}
+
+/*RWD for my carousel*/
+.carousel-item img {
+    display: block;
+}
+
+/* For screens smaller than 700px, hide the image */
+@media (max-width: 700px) {
+    .carousel-item img {
+        display: none;
+    }
+}
